@@ -1,0 +1,82 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+i,
+span,
+.srv-col,
+div:not(li) {
+  text-align: start !important;
+  letter-spacing: 0 !important;
+}
+/*  
+ناقص تملئ المحتوى -1 
+*/
+/* .nav .navbar-nav .nav-item {
+    
+} */
+
+.header .content-inner {
+  padding: 100px 30px;
+  background: url(../img/محمد_زكريا.png) left no-repeat;
+  background-size: contain;
+  height: 100%;
+}
+.large-btn i {
+  margin-left: 5px;
+}
+.content-header::after {
+  right: 0;
+}
+.education .edu-col span::before,
+.experience .exp-col span::before {
+  right: -26px;
+}
+.education .edu-col,
+.experience .exp-col {
+  padding: 20px 20px 20px 0;
+  border-right: 1px solid #ff6f61;
+  border-bottom: 1px solid #ff6f61;
+  border-left: none;
+  border-top: none;
+}
+.about .skill-name p:last-child {
+  float: left;
+}
+
+@media (min-width: 992px) {
+  .wrapper .sidebar {
+    margin: 0 -55px !important;
+  }
+}
+.contact .social a:not(:first-child) {
+  margin-left: 15px;
+}
+@media (min-width: 768px) {
+  .sidebar .sidebar-footer a {
+    margin: 0;
+    margin-left: 15px;
+  }
+  .wrapper .content {
+    width: calc(100% - 0);
+    margin-left: 0;
+  }
+  .wrapper .sidebar {
+    margin: 0 -250px;
+  }
+  /* .wrapper .sidebar:hover {
+    margin: 0 ;
+
+} */
+}
+
+.nav-link {
+  display: flex;
+  justify-content: space-between;
+}
+.back-to-top {
+  right: 92%;
+}
