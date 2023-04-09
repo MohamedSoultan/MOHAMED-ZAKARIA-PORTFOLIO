@@ -21,8 +21,9 @@ div:not(li) {
 
 .header .content-inner {
   padding: 100px 30px;
-  background: url(../img/محمد_زكريا.png) left no-repeat;
-  background-size: contain;
+  /* background: linear-gradient(rgb(11, 114, 133, 0.5), rgb(11, 114, 133, 0.5)), */
+    /* #0b7285 url(../img/bg.jpg) bottom; */
+  background-size: cover;
   height: 100%;
 }
 .large-btn i {

@@ -267,13 +267,12 @@ a:focus {
     padding: 15px;
   }
   .header .content-inner {
-    background-image: url(../img/محمد_زكريا.png);
+    /* background-image: url(../img/محمد_زكريا.png); */
   }
   .header .content-inner h1 {
-    /* background-color: var(--textColor); */
     padding: 5px 6px;
     font-size: 38px;
-    color: #333;
+    color: var(--bgColor);
     /* opacity: 0; */
   }
 }
@@ -336,7 +335,7 @@ a:focus {
 
 .header .content-inner {
   padding: 100px 30px;
-  background: url(../img/محمد_زكريا.png) right bottom no-repeat;
+  /* background: url(../img/home-img.jpg) right bottom no-repeat; */
   background-size: contain;
 }
 
