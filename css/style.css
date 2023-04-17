@@ -270,9 +270,10 @@ a:focus {
     /* background-image: url(../img/محمد_زكريا.png); */
   }
   .header .content-inner h1 {
+    /* background-color: var(--textColor); */
     padding: 5px 6px;
     font-size: 38px;
-    color: var(--bgColor);
+    color: #333;
     /* opacity: 0; */
   }
 }
@@ -335,7 +336,7 @@ a:focus {
 
 .header .content-inner {
   padding: 100px 30px;
-  /* background: url(../img/home-img.jpg) right bottom no-repeat; */
+  /* background: url(../img/محمد_زكريا.png) right bottom no-repeat; */
   background-size: contain;
 }
 
